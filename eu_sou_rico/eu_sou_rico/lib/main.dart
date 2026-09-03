@@ -11,11 +11,7 @@ void main() {
         backgroundColor: const Color.fromARGB(255, 72, 89, 97),
         body: Center(
           child: Image(
-            image: NetworkImage(
-              'https://akamai.sscdn.co/letras/215x215/fotos/1/4/8/7/1487d2648ef6053d803503eba9daf64d.jpg',
-            ),
-          ),
-        ),
+            image: AssetImage('images/rubi.png'))),
       ),
     ),
   );
