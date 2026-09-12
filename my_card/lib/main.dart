@@ -12,10 +12,10 @@ class MeuApp extends StatelessWidget {
         backgroundColor: const Color.fromARGB(255, 74, 74, 207),
         body: Center(
           child: Container(
-            child: const Text(
-              'Teste',
-              style: TextStyle(fontSize: 20, color: Colors.black),
-            ),
+            color: Colors.amber,
+            child:  Text(
+              'Teste de exibição',
+            ), 
           ),
         ),
       ),
